@@ -15,7 +15,7 @@ body{background: #fff;}
 	margin: 0px auto;
 
 }
-.w{
+.topw{
 	width: 1210px;
 	height: 30px;
     margin: 0px auto;
@@ -574,7 +574,7 @@ line-height: 30px;
 	float: left;
 	background: url(../image/homebg.png) no-repeat -213px -136px;
 }
-.fore1{
+.todaysfore1{
 	width: 249px;
 	height:164px;
 	float: left;
@@ -583,7 +583,7 @@ line-height: 30px;
 	overflow: hidden;
 
 }
-.fore1 a{
+.todaysfore1 a{
 	display: block;
 }
 /*今日推荐 end*/
@@ -869,7 +869,7 @@ line-height: 30px;
 }
 .ebaq_extra{
 	width: 328px;
-	height: 156px;
+	height: 158px;
 	border:1px solid #EDEDED;
 	float: left;
 	overflow: hidden;
@@ -1107,7 +1107,7 @@ line-height: 30px;
 }
 .side{
 	width: 330px;
-	height: 475px;
+	height: 473px;
 	float: left;
 	position: relative;
 	overflow: hidden;
@@ -1437,7 +1437,6 @@ line-height: 30px;
 .floor6slider {
     position: absolute;
     top: 0;
-    left: 1;
     width: 338px;
     height: 473px;
     overflow: hidden;
@@ -1518,7 +1517,6 @@ line-height: 30px;
     float: left;
     height: 237px;
     border-right: 1px solid #EDEDED;
-    background: red;
 }
 /*.floor6main-extra li {
     height: 237px;
@@ -1692,7 +1690,7 @@ line-height: 30px;
 .floor10slider .slider-panel a {
     display: block;
 }
-.floor10main-body2{
+.floor11main-body2{
 	width:395px;
     height: 238px;
     padding-top: 236px;
@@ -1700,7 +1698,7 @@ line-height: 30px;
     float: left;
     display: block;
 }
-.floor10main-body2 li {
+.floor11main-body2 li {
     float: left;
     height: 117px;
     width: 196px;
@@ -1794,4 +1792,236 @@ line-height: 30px;
     color: #e12228;
     font-size: 16px;
     font-weight: 700;
+}
+#special .mc li .p-info {
+    float: right;
+    width: 94px;
+}
+
+#specialshare {
+    float: left;
+    width: 310px;
+}
+#specialshare h2{
+    float: left;
+    display: inline;
+    line-height: 30px;
+    font-size: 20px;
+}
+#specialshare .mt{
+	height: 36px;
+}
+
+#specialshare .mc {
+    width: 268px;
+    height: 226px;
+    padding: 35px 20px 20px;
+    border: 1px solid #EDEDED;
+}
+#specialshare .sw {
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+}
+#specialshare .sw {
+    width: 268px;
+}
+
+#specialshare .mc li {
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#specialshare .p-img {
+    float: left;
+    display: inline;
+    padding: 10px 0;
+    width: 80px;
+    height: 80px;
+}
+#specialshare .author-info {
+    height: 28px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+#specialshare .p-detail {
+    position: relative;
+    width: 130px;
+    height: 34px;
+    padding: 10px 15px 10px 20px;
+    background: #f8f8f8;
+    color: #999;
+    overflow: visible;
+}
+#specialshare .p-info {
+    float: left;
+    display: inline;
+    width: 166px;
+    padding-left: 20px;
+    margin-top: 3px;
+}
+#specialshare .author-info img {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+#specialshare .author-info span {
+    line-height: 28px;
+}
+#specialshare .p-detail a, #share .p-detail p {
+    display: block;s
+    height: 38px;
+    overflow: hidden;
+    word-break: break-all;
+}
+#specialshare .detail-arrow {
+    position: absolute;
+    left: -9px;
+    top: 19px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+#specialshare .icon-l {
+    position: absolute;
+    left: 4px;
+    top: 7px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    font-family: Arial;
+
+
+}
+
+
+
+#service-2014 {
+    margin-bottom: 20px;
+}
+#service-2014 .slogen {
+    position: relative;
+    width: 1349px;
+    height: 54px;
+    padding: 20px 0;
+    margin-bottom: 14px;
+    background: #F5F5F5;
+    text-align: center;
+}
+/*.root61 #service-2014 .slogen .fore1 {
+    margin-left: -604px;
+}*/
+.root61 #service-2014 .slogen .item {
+    width: 302px;
+}
+#service-2014 .slogen .fore1 {
+    margin-left: -638px;
+}
+#service-2014 .slogen .item {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 302px;
+    height: 54px;
+    text-align: left;
+    vertical-align: middle;
+    font: 400 18px/50px "microsoft yahei";
+}
+#service-2014 .slogen .fore1 i {
+    background-image: url(../image/8f/service_items_1.png);
+}
+#service-2014 .slogen .fore2 i {
+    background-image: url(../image/8f/service_items_2.png);
+}
+#service-2014 .slogen .fore3 i {
+    background-image: url(../image/8f/service_items_3.png);
+}
+#service-2014 .slogen .fore4 i {
+    background-image: url(../image/8f/service_items_4.png);
+}
+#service-2014 .slogen .item i {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 220px;
+    height: 54px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+em, i, u {
+    font-style: normal;
+}
+#service-2014 .slogen .item b {
+    padding: 0 10px;
+    font-size: 24px;
+    color: #C81623;
+}
+ #service-2014 .slogen .fore2 {
+    margin-left: -304px;
+}
+ #service-2014 .slogen .fore3 {
+    margin-left: 0;
+}
+ #service-2014 .slogen .fore4 {
+    margin-left: 304px;
+}
+.root61 .w {
+    width: 1210px;
+}
+.w {
+    width: 990px;
+    margin: 0 auto;
+}
+#footer-2014 {
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+#footer-2014 .copyright {
+    margin: 10px 0;
+}
+#footer-2014 .links a {
+    margin: 0 10px;
+}
+#footer-2014 .authentication a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.w {
+    width: 1210px;
+}
+ #service-2014 dl {
+    width: 199px;
+    float: left;
+}
+#service-2014 .w dt {
+    padding: 6px 0;
+    font: 400 16px/24px "microsoft yahei";
+}
+#service-2014 .w dd {
+    line-height: 20px;
+}
+#coverage {
+
+    float: right;
+    width: 310px;
+    height: 168px;
+    background: url(../image/8f/20130330B_1.png) no-repeat 60px -131px;
+}
+#coverage .dt {
+    padding: 6px 40px 15px 80px;
+    font: 400 16px/24px "microsoft yahei";
+}
+#coverage .dd {
+    padding: 0 40px 15px 80px;
+}
+.ar {
+    text-align: right;
 }
