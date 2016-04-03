@@ -7,6 +7,46 @@
 
 body{background: #fff;}
 
+/*楼层跳转*/
+.jump{
+		width: 30px;
+		height:330px;
+		position: fixed;
+		left:30px;
+		top:80px;
+		background-color: #f4f4f4;
+		padding:0;
+		margin:0;
+		border-top: 1px solid #ccc;
+
+	}
+	.jump li{
+		width: 30px;
+		height: 29px;
+		border-bottom: 1px solid #ccc;
+		list-style:none;
+		/*margin:1px;
+		padding:1px;*/
+		text-align:center;
+		line-height:29px;
+		cursor: pointer;
+
+	}
+	
+	.back{
+		width:20px;
+		height: 20px;
+		background: red;
+		border: 1px solid #ccc;
+		position: fixed;
+		right:43px;
+		bottom:43px;
+		cursor: pointer;
+		opacity: 0;
+
+
+	}
+
 /*top start*/
 .top{
 	width: 100%;
